@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Google Apps]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.deepan.learning.jenkins.SampleSeleniumTest">
+        <methods>
+          <include name="validateGoogleId"/>
+          <include name="startBrowser"/>
+          <include name="closeBrowsr"/>
+        </methods>
+      </class> <!-- com.deepan.learning.jenkins.SampleSeleniumTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->

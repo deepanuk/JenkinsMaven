@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="48784" started-at="2020-10-17T11:25:42Z" finished-at="2020-10-17T11:26:31Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="48784" started-at="2020-10-17T11:25:42Z" finished-at="2020-10-17T11:26:31Z">
+      <class name="com.deepan.learning.jenkins.SampleSeleniumTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.deepan.learning.jenkins.SampleSeleniumTest@71a3a190]" name="startBrowser" is-config="true" duration-ms="26659" started-at="2020-10-17T11:25:42Z" finished-at="2020-10-17T11:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="validateGoogleId()[pri:0, instance:com.deepan.learning.jenkins.SampleSeleniumTest@71a3a190]" name="validateGoogleId" duration-ms="19280" started-at="2020-10-17T11:26:09Z" finished-at="2020-10-17T11:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleId -->
+        <test-method status="PASS" signature="closeBrowsr()[pri:0, instance:com.deepan.learning.jenkins.SampleSeleniumTest@71a3a190]" name="closeBrowsr" is-config="true" duration-ms="2730" started-at="2020-10-17T11:26:28Z" finished-at="2020-10-17T11:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsr -->
+      </class> <!-- com.deepan.learning.jenkins.SampleSeleniumTest -->
+      <class name="com.deepan.learning.jenkins.JenkinsCalFuncationTest">
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:com.deepan.learning.jenkins.JenkinsCalFuncationTest@2d84cb86]" name="testAdd" duration-ms="24" started-at="2020-10-17T11:25:42Z" finished-at="2020-10-17T11:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testSubtract()[pri:0, instance:com.deepan.learning.jenkins.JenkinsCalFuncationTest@2d84cb86]" name="testSubtract" duration-ms="0" started-at="2020-10-17T11:25:42Z" finished-at="2020-10-17T11:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtract -->
+      </class> <!-- com.deepan.learning.jenkins.JenkinsCalFuncationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
